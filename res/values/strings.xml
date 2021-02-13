@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">J.Gordo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_vegan">VeganActivity</string>
+    <string name="title_activity_joao">JoaoActivity</string>
+    <string name="title_activity_ratos">RatosActivity</string>
+    <string name="title_activity_en_vegan">EnVeganActivity</string>
+    <string name="title_activity_en_joao">EnJoaoActivity</string>
+    <string name="title_activity_en_ratos">EnRatosActivity</string>
+    <string name="title_activity_esp_vegan">EspVeganActivity</string>
+    <string name="title_activity_esp_joao">EspJoaoActivity</string>
+    <string name="title_activity_esp_ratos">EspRatosActivity</string>
+    <string name="title_activity_page_vegan">PageVeganActivity</string>
+    <string name="title_activity_en_page_vegan">EnPageVeganActivity</string>
+
+    <!-- VeganActivitys -->
+    <string name="pt_desc1">Em meio à essa pandemia, o projeto Solidariedade Vegan nasceu como uma iniciativa de levar alimento àqueles que mais precisam dele, com marmitas 100% veganas, sem nenhum tipo de crueldade animal, pois além de se levar um alimento acolhedor e saudável, nos preocupamos em semear o respeito a todos os seres do planeta!</string>
+    <string name="pt_desc2">Você pode colaborar com a iniciativa doando para um dos meios abaixo, basta clicar e ser redirecionado para a plataforma de sua escolha. Sua doação é importante para que mais pessoas necessitadas sejam atendidas com afeto e SOLIDARIEDADE.</string>
+    <string name="en_desc1">Into this pandemic, the project Solidariedade Vegan was born as a initiative to taking food to needy people, with packed lunch 100% vegan, without animal cruelty, because besides taking a welcoming and healthy food, we care about sowing the respect for all living beings on the planet.</string>
+    <string name="en_desc2">You can collaborate with us donating for one of the icons below, just click and redirect to the plataform of your choise. Your donation is important to more needy people are met with affection and SOLIDARITY.</string>
+    <string name="esp_desc1">En medio de esta pandemia nace el proyecto Solidariedade Vegan como una iniciativa para llevar comida a quienes más la necesitan, con loncheras 100% veganas, sin ningún tipo de crueldad hacia los animales, porque además de traer una comida caliente y saludable, nos preocupa ¡Sembrar respeto a todos los seres del planeta!</string>
+    <string name="esp_desc2">Puedes colaborar con la iniciativa donando a uno de los medios a continuación, solo haz clic y serás redirigido a la plataforma de tu elección. Tu donación es importante para que más personas necesitadas sean atendidas con cariño y SOLIDARIDAD.</string>
+    <!-- End -->
+    <!-- JoaoActivitys -->
+    <string name="pt_descFace">Curta e compartilhe a página para receber atualizações e novidades referentes ao canal PANELAÇO, lives com artistas, debatendo sobre diversos assuntos, aproveitando esse momento de quarentena.</string>
+    <string name="en_descFace">Like and share our page to receive news about the channel PANELAÇO, lives with artists, debating various subjects, enjoying this quarantine moment.</string>
+    <string name="esp_descFace">Me gusta y comparte la página para recibir actualizaciones y novedades sobre el canal PANELAÇO, convive con artistas, debatiendo sobre diversos temas, aprovechando este momento de cuarentena.</string>
+    <string name="pt_descInsta">Veja fotos, vídeos, stories e atualizações da carreira de João Gordo, acompanhando mais de perto sua vida pessoal e ficando por dentro de todos os projetos: Solidariedade Vegan, Panelaço, shows...</string>
+    <string name="en_descInsta">See photos, videos, stories and news of the João Gordo"'"s career, following more about your personal live and staying on top of all your projects: Solidariedade Vegan, Panelaço, shows, etc.</string>
+    <string name="esp_descInsta">Vea fotos, videos, historias y actualizaciones sobre la carrera de João Gordo, siguiendo más de cerca su vida personal y estando al tanto de todos los proyectos: Vegan Solidarity, Panelaço, shows, etc.</string>
+    <string name="pt_descTwitter">Opiniões, tweets, anúncios, eventos e outras atualizações referentes ao João Gordo, postadas de vez em quando... acompanhe a causa do projeto Solidariedade Vegan e produtos da RDPeido.</string>
+    <string name="en_descTwitter">Opinions, tweets, adverts, events and others att referring to João Gordo, posted sometimes. Follow the cause Solidariedade Vegan and RDPeido products.</string>
+    <string name="esp_descTwitter">Opiniones, tweets, anuncios, eventos y otras actualizaciones sobre João Gordo, publicadas de vez en cuando ... siguen la causa del proyecto Vegan Solidarity y los productos RDPeido</string>
+    <string name="pt_subTitle1">Entrevistas e Rango Vegano</string>
+    <string name="en_subTitle1">Interviews and vegan food</string>
+    <string name="esp_subTitle1">Entrevistas y rango vegano</string>
+    <string name="pt_subTitle2">Sem crueldade animal.</string>
+    <string name="en_subTitle2">without animal cruelty</string>
+    <string name="esp_subTitle2">Sin crueldad animal.</string>
+    <string name="pt_bookDesc1">Se todo mundo conhece João Gordo, poucos conhecem João Francisco Benedan.Nascido em uma família pobre do subúrbio de São Paulo, João teve uma vida e tanto: rebelde desde pequeno, viveu conflitos intensos e violentos com o pai, Milton, policial da Rota, um homem de temperamento explosivo.</string>
+    <string name="en_bookDesc1">If everyone knows João Gordo, few know João Francisco Benedan. Born in a poor family in the suburb of São Paulo, João had a difficult life: rebellious since he was a child, he experienced intense and violent conflicts with his father, Milton, a police officer from Rota, a explosive-tempered man.</string>
+    <string name="esp_bookDesc1">Si todo el mundo conoce a João Gordo, pocos conocen a João Francisco Benedan. Nacido en una familia pobre en el suburbio de São Paulo, João tuvo una vida bastante: rebelde desde niño, vivió intensos y violentos conflictos con su padre, Milton, un policía de Rota, un hombre de temperamento explosivo.</string>
+    <string name="pt_bookDesc2">A solidão e as brigas com o pai fizeram com que João buscasse na música – mais especificamente, no punk rock, a música mais agressiva e contestadora que encontrou – uma válvula de escape para suas frustrações. E assim João Francisco Benedan virou João Gordo, cantor do Ratos de Porão, a banda mais suja e agressiva do Brasil, famosa em todo o mundo.</string>
+    <string name="en_bookDesc2">The loneliness and fights with his father made João look in music - more specifically, in punk rock, the most aggressive and challenging music that he found - an outlet for his frustrations. And so João Francisco Benedan became João Gordo, singer of Ratos de Porão, the dirtiest and most aggressive band in Brazil, famous all over the world</string>
+     <string name="esp_bookDesc2">La soledad y las peleas con su padre hicieron que João buscara en la música, más específicamente, en el punk rock, la música más agresiva y desafiante que encontró, una salida para sus frustraciones. Y así João Francisco Benedan se convirtió en João Gordo, cantante de Ratos de Porão, la banda más sucia y agresiva de Brasil, famosa en todo el mundo.</string>
+    <!-- End -->
+    <string name="title_activity_esp_page_vegan">EspPageVeganActivity</string>
+    <string name="title_activity_language">LanguageActivity</string>
+    <string name="title_activity_page_ratos">PageRatosActivity</string>
+    <string name="title_activity_en_page_ratos">EnPageRatosActivity</string>
+    <string name="title_activity_esp_page_ratos">EspPageRatosActivity</string>
+    <string name="title_activity_page_joao">PageJoaoActivity</string>
+    <string name="title_activity_en_page_joao">EnPageJoaoActivity</string>
+    <string name="title_activity_esp_page_joao">EspPageJoaoActivity</string>
+
+</resources>

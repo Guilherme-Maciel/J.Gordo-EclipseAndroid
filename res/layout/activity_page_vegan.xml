@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom" >
+ 
+    <!-- Header aligned to top -->
+ 
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/vegan_page_header">
+
+        <TextView
+            android:id="@+id/txt_vegan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="13dp"
+            android:layout_centerVertical="true"
+            android:text="Vegan"
+            android:textSize="36sp"
+            android:textColor="#92CB1E" />
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/back_vegan" />
+
+     </RelativeLayout>
+     
+     <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:background="#387C31"
+        android:gravity="top" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top" >
+
+            <LinearLayout
+                android:id="@+id/contentAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/banner"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="-142dp"  >
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/solidariedadevegan"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/aboutLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="25dp" >
+
+                    <LinearLayout
+                         android:id="@+id/titleLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txt_about"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sobre nós:"
+                            android:textColor="#ffffff"
+                            android:layout_marginLeft="13dp"
+                            android:textSize="30sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/descLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                         android:layout_marginTop="13dp"
+                         android:layout_marginRight="13dp"
+                         android:layout_gravity="end" >
+
+                        <TextView
+                            android:id="@+id/txt_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="13dp"
+                            android:text="@string/pt_desc1"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp" 
+                            />
+                        
+                        <TextView
+                            android:id="@+id/txt_desc2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="13dp"
+                            android:layout_marginTop="26dp"
+                            android:text="@string/pt_desc2"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp" 
+                           />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bePart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/be_part" >
+
+                    <LinearLayout
+                        android:id="@+id/donate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txt_bePart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Faça Parte:"
+                            android:textColor="#B0FFAA"
+                            android:textSize="30sp"
+                            android:layout_marginLeft="15dp" />
+
+                        <LinearLayout
+                            android:id="@+id/plataformLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                             android:orientation="vertical"
+                             android:gravity="center" >
+
+                            <LinearLayout
+                            android:id="@+id/picpayLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical" >
+                            <ImageButton
+                                android:id="@+id/btn_picpay"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/picpay"
+                                android:background="@null" />
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="-@vivi.torrico"
+                                android:textSize="16sp"
+                                android:textColor="#ffffff"
+                                android:textStyle="bold" />
+
+                            </LinearLayout>
+                            
+                            <LinearLayout
+                            android:id="@+id/paypalLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical" >
+                            <ImageButton
+                                android:id="@+id/btn_paypal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/paypal"
+                                android:background="@null"/>
+                            
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="vivi.torrico@uol.com.br"
+                                android:textSize="16sp"
+                                android:textColor="#ffffff"
+                                android:textStyle="bold" />
+                            
+                            </LinearLayout>
+                            <LinearLayout
+                            android:id="@+id/paypalLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                             android:orientation="horizontal"
+                             android:gravity="center_vertical"  >
+                            
+                            <ImageButton
+                                android:id="@+id/btn_catarse"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/catarse"
+                                android:background="@null" />
+                            
+                             <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Solidariedade Vegan"
+                                android:textSize="16sp"
+                                android:textColor="#ffffff"
+                                android:textStyle="bold" />
+                             
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#369A2C"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/deposit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txt_deposit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Depósito:" 
+                            android:textSize="24sp"
+                            android:textColor="#B0FFAA"/>
+                        
+                        <TextView
+                            android:id="@+id/txt_bank"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Itaú, João F. Benedan 101.471.468-01" 
+                            android:textSize="18sp"
+                            android:textColor="#ffffff"/>
+                        
+                        <TextView
+                            android:id="@+id/txt_agency"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Agência: 3757 C/C: 04754-7" 
+                            android:textSize="18sp"
+                            android:textColor="#ffffff"/>
+                        
+                        <TextView
+                            android:id="@+id/txt_comp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="(favor identificiar 'solidariedade Vegan')" 
+                            android:textSize="18sp"
+                            android:textColor="#ffffff"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/spot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/mancha_green" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/mancha_green" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/social"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="-130dp"
+                    android:layout_marginBottom="50dp"
+                    android:gravity="center" >
+
+                    <ImageButton
+                        android:id="@+id/btn_facebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/facebook"
+                        android:background="@null" />
+                    <ImageButton
+                        android:id="@+id/btn_instagram"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/instagram"
+                        android:background="@null" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+     
+     </RelativeLayout>
+    
+ </RelativeLayout>

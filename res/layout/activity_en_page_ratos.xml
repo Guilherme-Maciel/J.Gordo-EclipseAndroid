@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom" >
+ 
+    <!-- Header aligned to top -->
+ 
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ratos_page_header">
+
+        <TextView
+            android:id="@+id/txt_ratos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="13dp"
+            android:layout_centerVertical="true"
+            android:text="Ratos"
+            android:textSize="36sp"
+            android:textColor="#ffffff" />
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/back_ratos" />
+
+     </RelativeLayout>
+     
+     <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:background="#740915"
+        android:gravity="top" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top" >
+
+            <LinearLayout
+                android:id="@+id/contentAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/banner1"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/listenIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txt_listenIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:text="Listen in:"
+                        android:textColor="#ffffff"
+                        android:textSize="30sp" />
+
+                    <LinearLayout
+                        android:id="@+id/spot"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/mancha_red" />
+                        
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/mancha_red" />
+                        
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/mancha_red" />
+                        
+                        
+
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/plataforms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-100dp"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/btn_spotify"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/spotify"
+                            android:background="@null" />
+                        
+                        <ImageButton
+                            android:id="@+id/btn_deezer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/deezer"
+                            android:background="@null" />
+                        
+                        <ImageButton
+                            android:id="@+id/btn_ytmusic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/ytmusic"
+                            android:background="@null" />
+                        
+                        
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/faPage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txt_faPages"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:text="Fã-pages:"
+                        android:textColor="#ffffff"
+                        android:textSize="30sp" />
+
+                    <LinearLayout
+                        android:id="@+id/spot"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="25dp"
+                            android:src="@drawable/mancha_red" />
+                        
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:src="@drawable/mancha_red" />
+                        
+                        
+
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/social"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-100dp"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/btn_facebook"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/facebook"
+                            android:background="@null" />
+                        
+                        <ImageButton
+                            android:id="@+id/btn_instagram"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/instagram"
+                            android:background="@null" />
+     
+                    </LinearLayout>                   
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:id="@+id/ecommerce"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="50dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txt_ecommerce"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:text="E-commerce"
+                        android:textColor="#ffffff"
+                        android:textSize="30sp" />
+
+                   <LinearLayout
+                        android:id="@+id/spot"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="25dp"
+                            android:src="@drawable/mancha_red" />                
+
+                    </LinearLayout>
+                    
+                   <LinearLayout
+                        android:id="@+id/plataforms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-100dp"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/btn_rdpeido"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/redpeido"
+                            android:background="@null" />
+                    </LinearLayout>
+                    
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+     
+     </RelativeLayout>
+    
+ </RelativeLayout>
