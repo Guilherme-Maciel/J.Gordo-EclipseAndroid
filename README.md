@@ -29,8 +29,9 @@ JOÃO GORDO's APP
 ➡️ Ratos do Porão (Song Streaming, Social Media and E-commerce)
 
 ## IDE
+<div display="flex" align-items="center" justify-content="center">
 <img src="http://3.bp.blogspot.com/-82FGfhElnfU/Uq8pzoQBhhI/AAAAAAAAB2o/o-tskIZXikY/s280/eclipse-android.png" alt="demo" height="75">
 <b>Eclipse Android</b>
-
+</div>
 
 
