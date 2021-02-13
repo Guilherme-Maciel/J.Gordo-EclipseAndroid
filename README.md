@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="YOUR_LOGO_URL" alt="YOUR_PROJECT_NAME" width="120">
+  <img src="https://github.com/Guilherme-Maciel/J.Gordo-layout-animation-translation/blob/master/res/drawable-mdpi/ic_launcher.png" alt="João Gordo" width="120" height="120">
 <br>
 <br>
 JOÃO GORDO's APP
