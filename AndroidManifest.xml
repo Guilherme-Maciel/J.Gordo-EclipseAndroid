@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="guilherme.etec.j.gordo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="guilherme.etec.j.gordo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.VeganActivity"
+            android:label="@string/title_activity_vegan" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.JoaoActivity"
+            android:label="@string/title_activity_joao" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.RatosActivity"
+            android:label="@string/title_activity_ratos" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EnVeganActivity"
+            android:label="@string/title_activity_en_vegan" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EnJoaoActivity"
+            android:label="@string/title_activity_en_joao" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EnRatosActivity"
+            android:label="@string/title_activity_en_ratos" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EspVeganActivity"
+            android:label="@string/title_activity_esp_vegan" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EspJoaoActivity"
+            android:label="@string/title_activity_esp_joao" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EspRatosActivity"
+            android:label="@string/title_activity_esp_ratos" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.PageVeganActivity"
+            android:label="@string/title_activity_page_vegan" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EnPageVeganActivity"
+            android:label="@string/title_activity_en_page_vegan" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EspPageVeganActivity"
+            android:label="@string/title_activity_esp_page_vegan" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.LanguageActivity"
+            android:label="@string/title_activity_language" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.PageRatosActivity"
+            android:label="@string/title_activity_page_ratos" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EnPageRatosActivity"
+            android:label="@string/title_activity_en_page_ratos" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EspPageRatosActivity"
+            android:label="@string/title_activity_esp_page_ratos" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.PageJoaoActivity"
+            android:label="@string/title_activity_page_joao" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EnPageJoaoActivity"
+            android:label="@string/title_activity_en_page_joao" >
+        </activity>
+        <activity
+            android:name="guilherme.etec.j.gordo.EspPageJoaoActivity"
+            android:label="@string/title_activity_esp_page_joao" >
+        </activity>
+    </application>
+
+</manifest>
