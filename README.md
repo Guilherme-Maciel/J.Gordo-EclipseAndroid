@@ -7,11 +7,7 @@ JOÃO GORDO's APP
 </h1>
 
 <p align="center">This application was created in a academic project from ETEC Jardim Ângela that had the presence of João Gordo, knew from the band Ratos de Porão.</p>
-
 <p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
-  </a>
 </p>
 
 [//]: # (Add your gifs/images here:)
@@ -33,7 +29,7 @@ JOÃO GORDO's APP
 ➡️ Ratos do Porão (Song Streaming, Social Media and E-commerce)
 
 ## IDE
-<img src="http://3.bp.blogspot.com/-82FGfhElnfU/Uq8pzoQBhhI/AAAAAAAAB2o/o-tskIZXikY/s280/eclipse-android.png" alt="demo" height="100">
+<img src="http://3.bp.blogspot.com/-82FGfhElnfU/Uq8pzoQBhhI/AAAAAAAAB2o/o-tskIZXikY/s280/eclipse-android.png" alt="demo" height="75">
 <b>Eclipse Android</b>
 
 
