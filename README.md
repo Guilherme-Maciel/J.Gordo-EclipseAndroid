@@ -6,7 +6,7 @@
 JOÃO GORDO's APP
 </h1>
 
-<p align="center">This application was created in a academic project from ETEC Jardim Ângela that had the presence of João Gordo, knew from the band Ratos de Porão.</p>
+<p align="center">This application was created in an academic project from ETEC Jardim Ângela, had the presence of João Gordo, knew for the band of punk rock, Ratos de Porão</p>
 <p align="center">
 </p>
 
