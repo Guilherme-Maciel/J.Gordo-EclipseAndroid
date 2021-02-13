@@ -21,19 +21,20 @@ JOÃO GORDO's APP
 
 <hr />
 
-## Features
-[//]: # (Add the features of your project here:)
-This app features all the latest tools and practices in mobile development!
-
-- ⚛️ **React Js** — A JavaScript library for building user interfaces
-- ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
-- 💹 **Node Js** — A web framework for Node Js
-
-## Getting started
-
-Describe here the way to use/install your project
+## Content
 
 
-## License
+➡️ João Gordo's social media (Facebook, Instagram, Twitter and others)
 
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+
+➡️ ONG Solidariedade Vegan (About, Social Media and Donates)
+
+
+➡️ Ratos do Porão (Song Streaming, Social Media and E-commerce)
+
+## IDE
+<img src="https://www.google.com/url?sa=i&url=http%3A%2F%2Fresumindoall.blogspot.com%2F2013%2F12%2Fdesenvolvimento-para-android-utilizando.html&psig=AOvVaw2jiIAC7T1CtrWb8wXy2TxR&ust=1613315939391000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDJjq-U5-4CFQAAAAAdAAAAABAD" alt="demo" height="100">
+<h2>Eclipse Android<h2>
+
+
+
