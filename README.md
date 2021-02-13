@@ -16,7 +16,9 @@ JOÃO GORDO's APP
 
 [//]: # (Add your gifs/images here:)
 <div>
+  <center>
   <img src="https://github.com/Guilherme-Maciel/readme_images/blob/master/jgordo/jGordo.gif" alt="demo" height="425">
+   </center>
 </div>
 
 <hr />
